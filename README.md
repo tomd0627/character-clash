@@ -1,4 +1,4 @@
-# Goku VS - Fictional Character Battle Analysis
+# Character Clash Battle Analysis
 
 🥊 A web application for analyzing fictional character battles with detailed combat statistics, scenario analysis, and verdict predictions.
 
@@ -6,7 +6,7 @@
 
 ### Core Analysis
 
-- **Character Comparison**: Compare any fictional character details against Goku (or any other character)
+- **Character Comparison**: Compare any fictional character details against each other
 - **Multi-Dimensional Combat Analysis**: Evaluate characters across 8 combat dimensions:
   - Physical Stats (strength, speed, durability, stamina)
   - Power Systems (energy output)
@@ -53,7 +53,7 @@
 ## Project Structure
 
 ```
-goku-vs/
+character-clash/
 ├── frontend/                 # React TypeScript application
 │   ├── src/
 │   │   ├── components/      # Reusable UI components
@@ -117,8 +117,8 @@ goku-vs/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/goku-vs.git
-cd goku-vs
+git clone https://github.com/tomd0627/character-clash.git
+cd character-clash
 ```
 
 2. **Install all dependencies** (root-level installation handles both frontend and backend)
