@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env*.local
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+.parcel-cache
+.next/
+out/
