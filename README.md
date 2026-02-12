@@ -121,17 +121,23 @@ git clone https://github.com/tomd0627/character-clash.git
 cd character-clash
 ```
 
-2. **Install all dependencies** (root-level installation handles both frontend and backend)
+2. **Install all dependencies**
 
 ```bash
-npm install
-npm install -w frontend
-npm install -w backend
+npm run install:all
 ```
 
-3. **Start both servers**
+This installs dependencies in the root, frontend, and backend directories.
 
-From the project root:
+3. **Initialize the database**
+
+```bash
+npm run db:init
+```
+
+This creates the SQLite database and seeds it with character data.
+
+4. **Start both servers**
 
 ```bash
 npm run dev

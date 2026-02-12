@@ -16,17 +16,13 @@ This is a fictional character battle analysis web application built with React/T
 1. **From project root, install all dependencies:**
 
    ```bash
-   npm install
-   npm install -w frontend
-   npm install -w backend
+   npm run install:all
    ```
 
 2. **Initialize the database (one time):**
 
    ```bash
-   cd backend
    npm run db:init
-   cd ..
    ```
 
 3. **Start development servers:**
